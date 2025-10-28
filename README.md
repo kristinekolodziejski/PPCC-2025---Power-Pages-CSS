@@ -38,28 +38,10 @@ and make your portals feel **modern, polished, and intentional**.
 
 ## 🎨 CSS Tricks
 
-### 1️⃣ Hover Animations
+### 
 
 
-```css
-.card:hover {
-  transform: translateY(-6px);
-  transition: 0.3s ease;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-```
-
-```css
-.card:hover {
-  transform: translateY(-6px);
-  transition: 0.3s ease;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-}
-
-```
-
-
-2️⃣ Box Shadows
+1️⃣ Box Shadows
 
 ```css
 .card {
@@ -67,6 +49,19 @@ and make your portals feel **modern, polished, and intentional**.
   border-radius: 12px;
 }
 ```
+
+
+2️⃣ Hover Animations
+
+
+```css
+.card:hover {
+  transform: translateY(-6px);
+  transition: 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+```
+
 
 What it does: Adds depth and softness.
 Use for: Sections, cards, modals.
