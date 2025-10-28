@@ -1,0 +1,139 @@
+# ✨ Power Pages CSS Tricks
+
+A collection of simple CSS snippets to instantly elevate your Microsoft Power Pages.  
+No VS Code required. No tears. Just copy, paste, and enjoy.
+
+---
+
+## 1️⃣ Hover Animations
+
+```css
+.card:hover {
+  transform: translateY(-6px);
+  transition: 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+What it does: Adds a gentle lift and shadow on hover.
+Use for: Cards, buttons, feature tiles.
+Result: Makes your UI feel alive and interactive.
+
+2️⃣ Box Shadows
+css
+Copy code
+.card {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 12px;
+}
+What it does: Adds depth and softness for a modern look.
+Use for: Sections, cards, modals.
+Pro tip: Keep shadows subtle — soft grey > harsh black.
+
+3️⃣ Gradient Text
+css
+Copy code
+.gradient-text {
+  background: linear-gradient(90deg, #0078D4, #8A2BE2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+What it does: Applies a gradient inside the text for a sleek, modern feel.
+Use for: Hero headers, titles, or logos.
+
+💡 Tips:
+
+Works best with bold fonts (font-weight: 700+).
+
+Change the angle to 45deg for a diagonal effect.
+
+Add a light shadow for contrast:
+
+css
+Copy code
+text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+4️⃣ Scroll Animations
+css
+Copy code
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+What it does: Fades and slides elements into view as users scroll.
+Use for: Section reveals, testimonials, stats panels.
+Result: Adds subtle, elegant motion to your page.
+
+5️⃣ Custom Scrollbars
+css
+Copy code
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#0078D4, #8A2BE2);
+  border-radius: 4px;
+}
+What it does: Customizes the scrollbar to match your brand theme.
+Use for: Dashboards or long content areas.
+Result: Looks refined and consistent with your design.
+
+6️⃣ Pop-Up Cards
+css
+Copy code
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  padding: 2rem;
+  animation: fadeUp 0.5s ease;
+}
+What it does: Creates clean, elegant modal-style pop-ups.
+Use for: Alerts, confirmations, success messages.
+Tip: Add display: none; and toggle via JS or Liquid to show/hide it.
+
+7️⃣ Glassmorphic Navbar
+css
+Copy code
+.navbar {
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.nav-link:hover {
+  color: #0078D4;
+  text-decoration: underline;
+}
+What it does: Gives your navigation a translucent, frosted-glass look.
+Use for: Top bars, headers, footers.
+Pro tip: Pair with light gradients for an extra elegant effect.
+
+🧠 Bonus: Design Tips
+Design Tip	Why It Works
+Use 2–3 colors max	Clean and consistent
+Add transition: 0.2s ease everywhere	Smooth, polished feel
+Round corners generously	Modern and friendly
+Keep animations subtle	Professional > flashy
+Try Google Fonts (Poppins, Inter)	Instant style upgrade
+
+📦 How to Add in Power Pages
+Add these snippets under:
+🧩 Design Studio → Styling → Custom CSS
+
+Or upload a .css file as a Web File and reference it:
+
+html
+Copy code
+<link rel="stylesheet" href="/webfiles/custom-styles.css">
