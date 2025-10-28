@@ -40,13 +40,14 @@ and make your portals feel **modern, polished, and intentional**.
 
 ### 1️⃣ Hover Animations
 
-'''css
 
+```css
 .card:hover {
   transform: translateY(-6px);
   transition: 0.3s ease;
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
+```
 
 ```css
 .card:hover {
@@ -55,12 +56,17 @@ and make your portals feel **modern, polished, and intentional**.
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
+```
+
+
 2️⃣ Box Shadows
+
+```css
 .card {
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   border-radius: 12px;
 }
-
+```
 
 What it does: Adds depth and softness.
 Use for: Sections, cards, modals.
@@ -70,13 +76,15 @@ Pro tip: Avoid dark, harsh shadows — subtle wins.
 
 
 4️⃣ Gradient Text
+
+```css
 .gradient-text {
   background: linear-gradient(90deg, #0078D4, #8A2BE2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
 }
-
+```
 
 What it does: Applies a linear gradient inside your text for a polished, modern feel.
 Use for: Hero headings, logo text, section titles.
