@@ -40,7 +40,7 @@ and make your portals feel **modern, polished, and intentional**.
 
 ### 1️⃣ Hover Animations
 
-'''
+'''css
 
 .card:hover {
   transform: translateY(-6px);
