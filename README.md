@@ -40,6 +40,8 @@ and make your portals feel **modern, polished, and intentional**.
 
 ### 
 
+ADD CUSTOM FONTS!!
+
 
 1️⃣ Box Shadows
 
@@ -68,16 +70,17 @@ Use for: Sections, cards, modals.
 Pro tip: Avoid dark, harsh shadows — subtle wins.
 
 
-
-
-4️⃣ Gradient Text
+3️⃣ Gradient Text
 
 ```css
-.gradient-text {
-  background: linear-gradient(90deg, #0078D4, #8A2BE2);
+.text-gradient {
+  color: #e4bb67;
+  background-image: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 700;
+  display: inline-block;
+font-weight: 700
 }
 ```
 
@@ -87,6 +90,7 @@ Use for: Hero headings, logo text, section titles.
 💡 Tips:
 
 Works best with bold fonts (font-weight: 700+).
+Use https://cssgradient.io/ for pre-generated gradients!
 
 Try changing the gradient angle to 45deg for a diagonal shimmer.
 
