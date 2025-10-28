@@ -42,7 +42,7 @@ and make your portals feel **modern, polished, and intentional**.
 
 ADD CUSTOM FONTS!!
 
-1 Custom fonts
+1. Custom fonts
 
 ```css
 
@@ -53,7 +53,7 @@ ADD CUSTOM FONTS!!
 }
 ```
 
-1️⃣ Box Shadows
+2. Box Shadows
 
 ```css
 .card {
@@ -63,7 +63,7 @@ ADD CUSTOM FONTS!!
 ```
 
 
-2️⃣ Hover Animations
+3. Hover Animations
 
 
 ```css
@@ -80,7 +80,7 @@ Use for: Sections, cards, modals.
 Pro tip: Avoid dark, harsh shadows — subtle wins.
 
 
-3️⃣ Gradient Text
+4. Gradient Text
 
 ```css
 .text-gradient {
@@ -104,7 +104,7 @@ Use https://cssgradient.io/ for pre-generated gradients!
 
 Try changing the gradient angle to 45deg for a diagonal shimmer.
 
-5️⃣ Scroll Animations
+5. Scroll Animations
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
@@ -124,7 +124,7 @@ Use for: Section reveals, testimonials, stats panels.
 Result: Adds subtle movement and polish.
 
 
-6️⃣ Custom Scrollbars
+6. Custom Scrollbars
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -139,7 +139,7 @@ Use for: Long content sections or dashboards.
 Result: Instantly looks custom and cohesive.
 
 
-8️⃣ Glassmorphic Navbar
+7. Glassmorphic Navbar
 .navbar {
   background: rgba(255,255,255,0.85);
   backdrop-filter: blur(8px);
