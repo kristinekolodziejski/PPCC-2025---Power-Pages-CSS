@@ -40,6 +40,7 @@ and make your portals feel **modern, polished, and intentional**.
 
 ### 1️⃣ Hover Animations
 
+'''
 
 .card:hover {
   transform: translateY(-6px);
@@ -47,7 +48,7 @@ and make your portals feel **modern, polished, and intentional**.
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
-
+'''
 
 2️⃣ Box Shadows
 .card {
