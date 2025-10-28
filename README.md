@@ -105,6 +105,8 @@ Use https://cssgradient.io/ for pre-generated gradients!
 Try changing the gradient angle to 45deg for a diagonal shimmer.
 
 5. Scroll Animations
+
+```css
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
@@ -118,6 +120,7 @@ Try changing the gradient angle to 45deg for a diagonal shimmer.
   }
 }
 
+```
 
 What it does: Fades and slides elements into view as users scroll.
 Use for: Section reveals, testimonials, stats panels.
@@ -125,6 +128,9 @@ Result: Adds subtle movement and polish.
 
 
 6. Custom Scrollbars
+
+```css
+   
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -133,6 +139,7 @@ Result: Adds subtle movement and polish.
   border-radius: 4px;
 }
 
+```
 
 What it does: Makes your scrollbar match your brand theme.
 Use for: Long content sections or dashboards.
@@ -140,6 +147,8 @@ Result: Instantly looks custom and cohesive.
 
 
 7. Glassmorphic Navbar
+
+```css
 .navbar {
   background: rgba(255,255,255,0.85);
   backdrop-filter: blur(8px);
@@ -150,6 +159,7 @@ Result: Instantly looks custom and cohesive.
   text-decoration: underline;
 }
 
+```
 
 What it does: Gives your navigation that translucent, frosted-glass look.
 Use for: Top bars, sticky headers, footers.
