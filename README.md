@@ -4,7 +4,7 @@ Repository with code snippets from my PPCC 2025 Power Pages session!
 
 # ✨ Simple CSS Tricks to Instantly Elevate Your Power Pages
 
-> A quick and fun guide to making your **Power Pages** look like a million bucks —  
+A quick and fun guide to making your **Power Pages** look like a million bucks!  
 
 ---
 
