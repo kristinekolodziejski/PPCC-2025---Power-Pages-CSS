@@ -131,19 +131,32 @@ Result: Adds subtle movement and polish.
 
 ```css
    
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(#0078D4, #8A2BE2);
-  border-radius: 4px;
-}
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #8f54a0;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
 
 ```
 
 What it does: Makes your scrollbar match your brand theme.
 Use for: Long content sections or dashboards.
 Result: Instantly looks custom and cohesive.
+Use this for easy customisable code: https://codepen.io/stephenpaton-tech/full/JjRvGmY
 
 
 7. Glassmorphic Navbar
