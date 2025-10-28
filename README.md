@@ -63,3 +63,78 @@ Pro tip: Avoid dark, harsh shadows — subtle wins.
 
 
 
+4️⃣ Gradient Text
+.gradient-text {
+  background: linear-gradient(90deg, #0078D4, #8A2BE2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+
+What it does: Applies a linear gradient inside your text for a polished, modern feel.
+Use for: Hero headings, logo text, section titles.
+
+💡 Tips:
+
+Works best with bold fonts (font-weight: 700+).
+
+Try changing the gradient angle to 45deg for a diagonal shimmer.
+
+5️⃣ Scroll Animations
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 1s forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+What it does: Fades and slides elements into view as users scroll.
+Use for: Section reveals, testimonials, stats panels.
+Result: Adds subtle movement and polish.
+
+
+6️⃣ Custom Scrollbars
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#0078D4, #8A2BE2);
+  border-radius: 4px;
+}
+
+
+What it does: Makes your scrollbar match your brand theme.
+Use for: Long content sections or dashboards.
+Result: Instantly looks custom and cohesive.
+
+
+8️⃣ Glassmorphic Navbar
+.navbar {
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.nav-link:hover {
+  color: #0078D4;
+  text-decoration: underline;
+}
+
+
+What it does: Gives your navigation that translucent, frosted-glass look.
+Use for: Top bars, sticky headers, footers.
+Pro tip: Combine with a light gradient background for extra elegance.
+
+
+
+
+
+
+
