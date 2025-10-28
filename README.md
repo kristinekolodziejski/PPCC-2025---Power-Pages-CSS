@@ -327,7 +327,7 @@ Try changing the gradient angle to 45deg for a diagonal shimmer.
 
 ```
 
-5. Scroll Animations
+6. On load animation
 
 ```css
 .fade-in {
