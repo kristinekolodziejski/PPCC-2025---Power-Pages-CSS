@@ -42,6 +42,16 @@ and make your portals feel **modern, polished, and intentional**.
 
 ADD CUSTOM FONTS!!
 
+1 Custom fonts
+
+```css
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+  font-family: 'Oswald', sans-serif !important;
+}
+```
 
 1️⃣ Box Shadows
 
