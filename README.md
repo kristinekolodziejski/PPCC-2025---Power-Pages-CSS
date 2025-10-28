@@ -48,7 +48,12 @@ and make your portals feel **modern, polished, and intentional**.
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
-'''
+```css
+.card:hover {
+  transform: translateY(-6px);
+  transition: 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
 
 2️⃣ Box Shadows
 .card {
